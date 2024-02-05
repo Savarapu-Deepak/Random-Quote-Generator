@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(
+    to top right,
+    rgb(130, 236, 130),
+    rgb(112, 112, 224)
+  );
+}
+.container {
+  background-color: whitesmoke;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 12px 12px 10px rgba(0, 0, 0, 0.3);
+  width: 85%;
+  margin: 10px;
+  text-align: center;
+}
+h1 {
+  font-weight: 800;
+  color: purple;
+}
+.quote {
+  font-size: 28px;
+  color: red;
+  line-height: 1.5;
+}
+.name {
+  font-size: 22px;
+  font-style: italic;
+  font-weight: 750;
+}
+button {
+  border: none;
+  padding: 8px 17px;
+  font-size: 18px;
+  background-color: rgb(41, 92, 31);
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
